@@ -139,86 +139,25 @@ hr{
     color: white;
     font-weight: normal;
 }
-
-
+@media only screen and (max-width: 1024px) {
+    .rectangulo {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 65vh;
+        background-color:hsl(217, 54%, 11%);
+        border-radius: 10px;
+    }
+    
+  }
 @media only screen and (max-width: 425px) {
     .rectangulo {
         display: flex;
         flex-direction: column;
         width: 350px;
-        height: 73vh;
+        height: 65vh;
         background-color:hsl(217, 54%, 11%);
         border-radius: 10px;
     }
-    .imagen {
-        display: flex;
-        justify-content: center;
-        margin: 45px;
-    }
     
-    .nft {
-        width: 300px;
-        height: 300px;
-        
-    }
-
-    .ojo {
-        width: 300px;
-        height: 300px; 
-        opacity: 0;
-        transition: opacity 0.2s ease-in-out;
-        position: absolute;
-        top: 37%;
-        left: 50%;
-        transform: translate(-50%,-50%); 
-        background-color: #19f9f91f;
-        text-align: center;
-        line-height: 30px;
-    
-    }
-    
-    
-    
-    .ojo:hover {
-        opacity: 0.4;
-        cursor: pointer;
-    }
-    
-    .texto {
-        margin:0 1.5rem;
-        margin-top: -3rem;
-        
-        
-    }
-    .prize {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin: 0 1.5rem;
-        
-    }
-
-    .datos {
-        width: 600px;
-    }
-
-    .time {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin: 0 7.5rem;
-    }
-
-    hr {
-        width: 300px;
-    }
-
-    .credits {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin: 0 1.5rem;
-      
-        
-    } 
-  } 
+  }
