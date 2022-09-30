@@ -146,7 +146,7 @@ hr{
         display: flex;
         flex-direction: column;
         width: 350px;
-        height: 70vh;
+        height: 73vh;
         background-color:hsl(217, 54%, 11%);
         border-radius: 10px;
     }
