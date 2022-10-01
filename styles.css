@@ -139,6 +139,20 @@ hr{
     color: white;
     font-weight: normal;
 }
+
+@media only screen and (max-width: 1343px) {
+    .rectangulo {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 65vh;
+        background-color:hsl(217, 54%, 11%);
+        border-radius: 10px;
+    }
+    
+  }
+
+
 @media only screen and (max-width: 1024px) {
     .rectangulo {
         display: flex;
